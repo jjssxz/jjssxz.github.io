@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    color:white;
+    background: linear-gradient(to right, #fffffc 50%, #d400ff 50%);
+    font-family: 'Inter', sans-serif;
+    cursor:default;
+}
+.conteiner{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 0vh;
+    grid-template-areas: "esquerda direita";
+}
+.esquerda{
+    text-align: center;
+    grid-area: esquerda;
+}
+.direita{
+    display: flex;
+    margin-left: 7%; 
+    grid-area: direita  ;
+}
+p{
+    padding: 0px 15px 0px 15px;
+}
+.circulo{
+    background: linear-gradient(to right, #d400ff 50%, #ffffff 50%);
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.center{
+    text-align: center;
+}
+.center_logos{
+    text-align: center;
+    word-spacing: 7px;
+}
+.roxo{
+    display: inline-block;
+    color: #000000;
+}
+.branco{
+    display: inline-block;
+    color: #000000;
+}
+.h3_central{
+    background: linear-gradient(to right, #000000 50%, #000000 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.meu-nome-header{
+    color: #000000;
+}
+.esquerda-header, .esquerda-header:link, .esquerda-header:visited{
+    text-decoration: none;
+    color: #000000;
+}
+.esquerda-header:hover{
+    text-decoration: underline;
+}
+img{
+    scale: 0.95;
+}
+.roxo>svg:hover, .branco>svg:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
