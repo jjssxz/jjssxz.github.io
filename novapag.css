@@ -1,7 +1,7 @@
 body{
     margin: 0;
     color:white;
-    background: linear-gradient(to right, #fffffc 50%, #d400ff 50%);
+    background: linear-gradient(to right, #fffffc 50%, #58a6ff 50%);
     font-family: 'Inter', sans-serif;
     cursor:default;
 }
@@ -31,7 +31,7 @@ p{
     padding: 0px 15px 0px 15px;
 }
 .circulo{
-    background: linear-gradient(to right, #d400ff 50%, #ffffff 50%);
+    background: linear-gradient(to right, #58a6ff 50%, #ffffff 50%);
     width: 200px;
     height: 200px;
     border-radius: 100%;
@@ -43,7 +43,7 @@ p{
     text-align: center;
     word-spacing: 7px;
 }
-.roxo{
+.azul{
     display: inline-block;
     color: #000000;
 }
@@ -69,7 +69,7 @@ p{
 img{
     scale: 0.95;
 }
-.roxo>svg:hover, .branco>svg:hover{
+.azul>svg:hover, .branco>svg:hover{
     cursor: pointer;
     transform: scale(1.1);
 }
